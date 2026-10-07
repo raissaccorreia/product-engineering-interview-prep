@@ -4,4 +4,4 @@ Coleção pessoal de exercícios curtos de TypeScript, com enunciados, tentativa
 
 ## Sessões
 
-- [2026-10-07 — quatro exercícios](2026-10-07/README.md)
+- [2026-10-07 — exercícios de TypeScript](2026-10-07/README.md)
