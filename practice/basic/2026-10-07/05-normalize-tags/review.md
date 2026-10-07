@@ -46,6 +46,36 @@ Resposta em inglês, preservada como enviada:
 
 A tentativa normaliza cada string com `toLowerCase().trim()`, descarta as vazias e adiciona valores diferentes do último elemento do resultado. Também inclui um `console.log` com o exemplo do enunciado.
 
+## Código da minha tentativa
+
+Código de [`solution.ts`](solution.ts), preservado com a mesma lógica:
+
+```ts
+/** Implement the contract described in review.md. */
+export function normalizeTags(tags: readonly string[]): string[] {
+  let resultTags = [];
+
+  for (let tagElement of tags) {
+    let tag = tagElement.toLowerCase().trim();
+    if (tag.length > 0 && (resultTags.length === 0 || tag !== resultTags[resultTags.length - 1])) {
+      resultTags.push(tag);
+    }
+  }
+  return resultTags;
+}
+
+console.log(normalizeTags([" TypeScript ", "", "typescript", "Node.js", " node.js "]));
+// ["typescript", "node.js"]
+```
+
+## O que estava correto na resposta e na tentativa
+
+- A escolha de `trim()` remove whitespace das extremidades; a dúvida sobre o começo da string foi esclarecida na revisão.
+- A implementação usa `toLowerCase()` para converter as tags e `tag.length > 0` para descartar as que ficaram vazias.
+- O resultado é construído em um array novo, preservando a entrada e a ordem de processamento.
+
+A resposta completa e o código ainda precisavam do ajuste de deduplicação global descrito abaixo.
+
 ## Revisão
 
 `trim()` remove whitespace das duas extremidades da string. `toLowerCase()` está escrito corretamente na implementação atual. Não foi possível determinar a causa do erro anterior porque a mensagem original e a versão anterior do código não foram fornecidas.
@@ -61,6 +91,30 @@ normalizeTags([" A ", "b", "a"]);
 O exemplo original passa porque as tags repetidas são consecutivas depois de descartar a string vazia. Esse caso sozinho não distingue os dois comportamentos.
 
 Na referência, um `Set<string>` guarda as tags normalizadas já incluídas. A função acrescenta uma tag quando ela não está vazia e ainda não pertence ao conjunto. Como percorre a entrada na ordem original, preserva a primeira ocorrência.
+
+## Solução de referência
+
+Código de [`reference.ts`](reference.ts), separado da tentativa:
+
+```ts
+export function normalizeTags(tags: readonly string[]): string[] {
+  const resultTags: string[] = [];
+  const seenTags = new Set<string>();
+
+  for (const tagElement of tags) {
+    const tag = tagElement.trim().toLowerCase();
+
+    if (tag.length === 0 || seenTags.has(tag)) {
+      continue;
+    }
+
+    seenTags.add(tag);
+    resultTags.push(tag);
+  }
+
+  return resultTags;
+}
+```
 
 ## Verificações
 
