@@ -6,3 +6,4 @@ Quatro exercícios curtos para recuperar ritmo em leitura, correção e implemen
 2. [Corrigir bug: máximo de uma lista](02-fix-maximum/review.md) · [código](02-fix-maximum/solution.ts)
 3. [Implementar: reduzir repetições consecutivas](03-collapse-consecutive/review.md) · [código](03-collapse-consecutive/solution.ts)
 4. [Corrigir bug: buscar nome com `findIndex`](04-find-user-name/review.md) · [código](04-find-user-name/solution.ts)
+5. [Implementar: normalizar tags](05-normalize-tags/review.md) · [código](05-normalize-tags/solution.ts)
