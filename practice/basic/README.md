@@ -20,3 +20,4 @@ Identifique a resposta original e a explicação de referência por autoria. Nã
 ## Sessões
 
 - [2026-10-07 — exercícios de TypeScript](2026-10-07/README.md)
+- [2026-10-09 — sessão de 50 minutos](2026-10-09/README.md)
