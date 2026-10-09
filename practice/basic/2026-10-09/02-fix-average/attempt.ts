@@ -10,5 +10,10 @@ export function average(values: readonly number[]): number | undefined {
     }
   }
 
-  return total / count;
+  return count === 0 ? 0 : total / count;
 }
+
+console.log(average([]));
+console.log(average([1, 2, 3]));
+console.log(average([32, -4, 0, 7]));
+console.log(average(undefined));
