@@ -15,4 +15,4 @@ Depois de cada resposta, preservar a tentativa e a mensagem original, acrescenta
 
 ## Resumo da sessão
 
-Em andamento. O primeiro exercício foi respondido e revisado; os dois seguintes aguardam tentativa. O resumo final será preenchido ao concluir a sessão.
+Em andamento. Os dois primeiros exercícios foram respondidos e revisados; o terceiro aguarda tentativa. O resumo final será preenchido ao concluir a sessão.
