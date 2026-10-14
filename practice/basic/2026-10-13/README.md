@@ -11,8 +11,8 @@ Sessão planejada de 40 minutos. Apresentar um exercício por vez no chat e agua
 
 Responder com código TypeScript e raciocínio em inglês. O feedback será em português, com sugestões pontuais para a clareza do inglês, sem reescrever a resposta da the learner.
 
-Os arquivos atuais contêm somente enunciados e código inicial. Depois de cada resposta, preservar a tentativa e a mensagem original, acrescentar a referência em arquivo separado e documentar tudo em Markdown conforme o padrão da coleção.
+Depois de cada resposta, preservar a tentativa e a mensagem original, acrescentar a referência em arquivo separado e documentar tudo em Markdown conforme o padrão da coleção. Os exercícios ainda não respondidos contêm somente enunciados e código inicial.
 
 ## Resumo da sessão
 
-Pendente. A sessão ainda não foi iniciada.
+Em andamento. O primeiro exercício foi respondido e revisado; os dois seguintes aguardam tentativa. O resumo final será preenchido ao concluir a sessão.
