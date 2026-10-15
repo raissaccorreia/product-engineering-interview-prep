@@ -21,4 +21,4 @@ Preservar cada tentativa e a mensagem original. Depois da resposta, acrescentar 
 
 ## Resumo da sessão
 
-Pendente. Apenas os enunciados e arquivos iniciais foram preparados.
+Em andamento. O primeiro exercício foi respondido e revisado corretamente, incluindo as quatro saídas para o mapa vazio. Os exercícios de correção e implementação aguardam tentativa.
