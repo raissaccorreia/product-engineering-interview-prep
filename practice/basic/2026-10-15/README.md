@@ -21,4 +21,4 @@ Preservar cada tentativa e a mensagem original. Depois da resposta, acrescentar 
 
 ## Resumo da sessão
 
-Em andamento. O primeiro exercício foi respondido e revisado corretamente, incluindo as quatro saídas para o mapa vazio. Os exercícios de correção e implementação aguardam tentativa.
+Em andamento. O primeiro exercício foi respondido e revisado corretamente, incluindo as quatro saídas para o mapa vazio. O segundo teve o diagnóstico e os exemplos registrados, com referência e feedback sobre mutação, cópia e complexidade. O terceiro aguarda tentativa.

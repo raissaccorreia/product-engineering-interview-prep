@@ -8,3 +8,11 @@ export function withoutLabel(labels: string[], target: string): string[] {
 
   return labels;
 }
+
+const labels = ["red", "blue", "red"];
+const labels2 = [];
+const labels3 = ["blue", "yellow", "green"];
+
+console.log(withoutLabel(labels, "red"));
+console.log(withoutLabel(labels2, "red"));
+console.log(withoutLabel(labels3, "red"));
