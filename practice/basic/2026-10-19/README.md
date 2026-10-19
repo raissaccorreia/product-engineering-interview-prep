@@ -18,6 +18,9 @@ Para os exercícios de correção e implementação, registrar primeiro a estrat
 1. Leitura de código: [pipeline de array](01-read-array-pipeline/exercise.ts) · [revisão](01-read-array-pipeline/review.md)
 2. Correção de bug: [primeiro número par](02-first-even/exercise.ts) · [revisão](02-first-even/review.md)
 3. Implementação: [contar palavras longas](03-count-long-words/exercise.ts) · [revisão](03-count-long-words/review.md)
+4. Exercício integrado adicional de 30 minutos: [relatório de pedidos](04-order-report/README.md) · [código](04-order-report/exercise.ts)
+
+A the learner informou que concluiu as três primeiras atividades em 25 minutos. Para o restante do estudo, solicitou um exercício maior com partes fácil, média e difícil. A quarta atividade reúne os três níveis em uma função e aguarda tentativa.
 
 ## Resumo da sessão
 
