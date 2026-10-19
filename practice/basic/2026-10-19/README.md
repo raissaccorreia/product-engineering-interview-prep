@@ -16,9 +16,9 @@ Para os exercícios de correção e implementação, registrar primeiro a estrat
 ## Exercícios
 
 1. Leitura de código: [pipeline de array](01-read-array-pipeline/exercise.ts) · [revisão](01-read-array-pipeline/review.md)
-2. Correção de bug: [primeiro número par](02-first-even/exercise.ts)
-3. Implementação: a apresentar depois da segunda revisão.
+2. Correção de bug: [primeiro número par](02-first-even/exercise.ts) · [revisão](02-first-even/review.md)
+3. Implementação: [contar palavras longas](03-count-long-words/exercise.ts)
 
 ## Resumo da sessão
 
-Na leitura de código, a filtragem e o caso vazio foram compreendidos corretamente. Revise a saída do primeiro `console.log` e lembre que o índice de `map` começa em zero no array sobre o qual o método está sendo chamado. Os exercícios de correção de bug e implementação continuam pendentes.
+Na leitura de código, a filtragem e o caso vazio foram compreendidos corretamente; revise a saída do primeiro `console.log` e o índice zero-based de `map`. Na correção, a intenção de obter o primeiro resultado estava clara, mas `some` retorna um booleano; revise a diferença entre `some`, `find` e `filter`. A implementação final está pendente.
