@@ -16,7 +16,7 @@ Para os exercícios de correção e implementação, registrar primeiro a estrat
 ## Exercícios
 
 1. Leitura de código: [pipeline de array](01-read-array-pipeline/exercise.ts) · [revisão](01-read-array-pipeline/review.md)
-2. Correção de bug: a apresentar depois da primeira revisão.
+2. Correção de bug: [primeiro número par](02-first-even/exercise.ts)
 3. Implementação: a apresentar depois da segunda revisão.
 
 ## Resumo da sessão
