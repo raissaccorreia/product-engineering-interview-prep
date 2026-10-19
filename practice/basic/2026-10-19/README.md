@@ -17,8 +17,8 @@ Para os exercícios de correção e implementação, registrar primeiro a estrat
 
 1. Leitura de código: [pipeline de array](01-read-array-pipeline/exercise.ts) · [revisão](01-read-array-pipeline/review.md)
 2. Correção de bug: [primeiro número par](02-first-even/exercise.ts) · [revisão](02-first-even/review.md)
-3. Implementação: [contar palavras longas](03-count-long-words/exercise.ts)
+3. Implementação: [contar palavras longas](03-count-long-words/exercise.ts) · [revisão](03-count-long-words/review.md)
 
 ## Resumo da sessão
 
-Na leitura de código, a filtragem e o caso vazio foram compreendidos corretamente; revise a saída do primeiro `console.log` e o índice zero-based de `map`. Na correção, a intenção de obter o primeiro resultado estava clara, mas `some` retorna um booleano; revise a diferença entre `some`, `find` e `filter`. A implementação final está pendente.
+Na leitura de código, a filtragem e o caso vazio foram compreendidos; revise a saída do primeiro `console.log` e o índice zero-based de `map`. Na correção, a intenção de obter o primeiro resultado estava clara, mas `some` retorna um booleano; revise a diferença entre `some`, `find` e `filter`. Na implementação, `filter(...).length` resolveu a contagem corretamente; o `?? 0` é redundante porque `length` sempre é numérico. Para revisar por conta própria, refaça a função sem `?? 0` e acrescente um caso em que uma palavra tenha comprimento exatamente igual a `minLength`.
