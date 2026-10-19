@@ -2,6 +2,8 @@
 
 Atividade adicional de 30 minutos, solicitada depois que a the learner informou ter concluído os três exercícios anteriores em 25 minutos. Praticar uma função com etapas de dificuldade crescente, explicando o plano em inglês antes da implementação. Aguardar a tentativa antes de apresentar feedback ou referência.
 
+Tentativa revisada: [código original](attempt.ts), [referência](reference.ts) e [feedback completo](review.md). A tentativa inclui os comentários explicativos escritos durante os 30 minutos.
+
 Implemente `buildOrderReport` em [exercise.ts](exercise.ts). Todas as etapas fazem parte da mesma função e usam a mesma entrada. Você pode criar funções auxiliares.
 
 ## Contrato
