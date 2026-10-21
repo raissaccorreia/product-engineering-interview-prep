@@ -24,3 +24,4 @@ Identifique a resposta original e a explicação de referência por autoria. Nã
 - [2026-10-13 — sessão de 40 minutos](2026-10-13/README.md)
 - [2026-10-15 — sessão de 60 minutos](2026-10-15/README.md)
 - [2026-10-19 — sessão de 90 minutos](2026-10-19/README.md)
+- [2026-10-21 — exercício integrado de 30 minutos](2026-10-21/README.md)
