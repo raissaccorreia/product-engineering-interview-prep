@@ -8,4 +8,4 @@ Explicar o plano em inglês antes de implementar. Apresentar casos de borda com 
 
 Depois da resposta, preservar código e comentários em `attempt.ts`, criar `reference.ts` e reunir os dois códigos e o feedback em `review.md`, conforme o padrão da coleção.
 
-Estado: aguardando tentativa.
+Estado: tentativa revisada. As partes fácil e média estão corretas; falta implementar a seleção de `nextTicket`. O código compila. As contagens e os IDs passaram em oito cenários; a referência completa também passou nos oito. Consulte a [revisão](01-ticket-report/review.md), a [tentativa preservada](01-ticket-report/attempt.ts) e a [referência](01-ticket-report/reference.ts).

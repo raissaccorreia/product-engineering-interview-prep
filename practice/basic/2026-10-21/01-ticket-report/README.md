@@ -2,6 +2,8 @@
 
 Implemente `buildTicketReport` em [exercise.ts](exercise.ts). Tempo sugerido: 30 minutos. Explique seu plano em inglês antes de implementar; pode usar comentários no arquivo. Aguarde a revisão antes de consultar uma solução de referência.
 
+Tentativa revisada: [código e comentários originais](attempt.ts), [referência](reference.ts) e [feedback completo](review.md).
+
 ## Contrato
 
 Cada ticket tem `id`, `team`, `status` e `priority`, conforme os tipos no arquivo. Os IDs são únicos. Compare nomes de equipes exatamente como aparecem, sem normalização. Considere somente tickets abertos (`status: "open"`) em todas as partes. Preserve o array e seus objetos. Você pode criar funções auxiliares.
