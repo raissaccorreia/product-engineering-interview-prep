@@ -2,6 +2,10 @@
 
 Coleção pessoal de exercícios curtos de TypeScript, com enunciados, tentativas, feedback e implementações de referência.
 
+## Guias de consulta
+
+- [Escolher estruturas e operações: Array, Map, Set e dicionários](guides/data-structures.md)
+
 ## Formato dos registros
 
 Guarde a tentativa da the learner e a solução de referência em arquivos TypeScript separados. Preserve a lógica da tentativa, inclusive os erros, para permitir a comparação depois da revisão. Nos novos exercícios, use `attempt.ts` para a tentativa e `reference.ts` para a referência. Alguns registros anteriores usam `solution.ts` para a tentativa; a nota de cada exercício identifica o conteúdo.
