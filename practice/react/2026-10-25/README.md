@@ -16,3 +16,7 @@ Prompts and requirements are in English. Wait for the attempt before giving hint
 - [Quantity controls](01-quantity-controls/README.md)
 
 Use the isolated [React + TypeScript app](../2026-10-22/01-work-items/app/README.md). Start only one Vite dev server for the session to keep hot reload on the active browser tab.
+
+## Session record
+
+Exercise 1 was completed in approximately 40–50 minutes. The attempt, review, and reference are saved in [01-quantity-controls](01-quantity-controls/README.md). The code renders and updates state; the full build still reports unused parameters, and the decrement button, reusable row component, and list key need review.
