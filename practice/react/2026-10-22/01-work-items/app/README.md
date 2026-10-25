@@ -10,7 +10,7 @@ From this directory:
 pnpm dev
 ```
 
-Open the local URL printed by Vite. Keep the dev server running while you work. Vite updates the browser as you save.
+Open `http://localhost:5173/` and keep this single dev server running while you work. The Vite config fixes the port so a second server cannot silently switch to 5174. File polling is enabled at 500 ms because native file change events were not reaching the dev server reliably in this workspace. Hot reload was confirmed by editing `src/App.tsx` and observing the page update without a reload.
 
 ## Check the implementation
 
