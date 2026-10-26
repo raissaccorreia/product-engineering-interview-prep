@@ -14,6 +14,6 @@ Edit [app/src/App.tsx](app/src/App.tsx). This environment is separate from the p
 
 From `app/`, run `pnpm dev` if the server is not already running. Open `http://localhost:5173/`. Keep one server active; the configuration fixes the port and uses file polling for hot reload.
 
-`pnpm build` checks TypeScript and builds the app. `pnpm lint` checks the code. Setup checks validate the empty starter only, not countdown behavior.
+`pnpm build` checks TypeScript and builds the app, including the separate solution module. `pnpm lint` checks the project. These checks do not exercise countdown behavior in a browser.
 
 After an implementation is submitted, preserve it separately from the reference and record the explanation, feedback, and observed checks in Markdown.
