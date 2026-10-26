@@ -4,9 +4,9 @@ Build a small configurable countdown clock in React and TypeScript, with minute 
 
 ## Current stage
 
-The app contains only an empty component shell. No countdown logic, state, handlers, timer code, hints, or reference solution have been added.
+At the learner's request, the assistant implemented the model she described: separate `minutes`, `seconds`, and `time` states, two controlled inputs, and `time = minutes * 60 + seconds` updated when either input changes. The displayed total makes this relationship visible. This is a study draft written from her explanation, not her original submitted code or a complete reference solution.
 
-First, explain your previous approach and reasoning in English. Include what you tried to store, what each control was meant to do, and where you became stuck. We will discuss your explanation before implementing the next step. This is guided practice; there is no countdown for completing today's exercise.
+The current stage is preserved in [stages/01-input-state.tsx](stages/01-input-state.tsx). Timer behavior and controls will be discussed next. No effect or timeout has been implemented. This is guided practice with no completion time limit.
 
 ## Environment
 
