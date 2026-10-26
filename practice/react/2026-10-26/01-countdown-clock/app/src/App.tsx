@@ -5,6 +5,12 @@ function App() {
   const [minutes, setMinutes] = useState(0)
   const [seconds, setSeconds] = useState(0)
   const [time, setTime] = useState(0)
+  const [isPaused, setIsPaused] = useState(false)
+  const [pausedTime, setPausedTime] = useState(0)
+
+  const displayedTime = isPaused ? pausedTime : time
+  const displayedMinutes = Math.floor(displayedTime / 60)
+  const displayedSeconds = displayedTime % 60
 
   function handleMinutesChange(nextMinutes: number) {
     setMinutes(nextMinutes)
@@ -16,6 +22,24 @@ function App() {
 
   function handleStart() {
     setTime(minutes * 60 + seconds)
+  }
+
+  function handlePauseResumeToggle() {
+    if (isPaused) {
+      setIsPaused(false)
+      return
+    }
+
+    setPausedTime(time)
+    setIsPaused(true)
+  }
+
+  function handleReset() {
+    setMinutes(0)
+    setSeconds(0)
+    setTime(0)
+    setPausedTime(0)
+    setIsPaused(false)
   }
 
   return (
@@ -42,7 +66,15 @@ function App() {
       <button type="button" onClick={handleStart}>
         Start
       </button>
-      <p>Total time: {time} seconds</p>
+      <button type="button" onClick={handlePauseResumeToggle}>
+        {isPaused ? 'Resume' : 'Pause'}
+      </button>
+      <button type="button" onClick={handleReset}>
+        Reset
+      </button>
+      <p>
+        Time: {displayedMinutes}:{String(displayedSeconds).padStart(2, '0')}
+      </p>
     </main>
   )
 }
