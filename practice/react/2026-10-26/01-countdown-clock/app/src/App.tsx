@@ -8,12 +8,14 @@ function App() {
 
   function handleMinutesChange(nextMinutes: number) {
     setMinutes(nextMinutes)
-    setTime(nextMinutes * 60 + seconds)
   }
 
   function handleSecondsChange(nextSeconds: number) {
     setSeconds(nextSeconds)
-    setTime(minutes * 60 + nextSeconds)
+  }
+
+  function handleStart() {
+    setTime(minutes * 60 + seconds)
   }
 
   return (
@@ -37,6 +39,9 @@ function App() {
           onChange={(event) => handleSecondsChange(Number(event.currentTarget.value))}
         />
       </div>
+      <button type="button" onClick={handleStart}>
+        Start
+      </button>
       <p>Total time: {time} seconds</p>
     </main>
   )
