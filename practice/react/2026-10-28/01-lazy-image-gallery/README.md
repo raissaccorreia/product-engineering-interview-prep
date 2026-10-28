@@ -23,6 +23,7 @@ Use the browser's `IntersectionObserver` API to detect the marker. Do not use `R
 - The static data is in `app/src/images.ts`.
 - Basic visual styling is provided in `app/src/App.css`.
 - The runnable starter uses a separate Vite app and a fixed port, `5174`, so it can coexist with the countdown exercise on `5173`.
+- An optional concept demo is available at `/demo`; it compares image visibility loading with `IntersectionObserver` and component-code loading with `React.lazy`. The exercise remains at `/`.
 
 From `app/`, run `pnpm dev` and open `http://localhost:5174/`. The Vite config uses polling so hot reload continues to work in this workspace. Run `pnpm build` and `pnpm lint` after the implementation; they check TypeScript and linting but do not exercise scrolling behavior.
 

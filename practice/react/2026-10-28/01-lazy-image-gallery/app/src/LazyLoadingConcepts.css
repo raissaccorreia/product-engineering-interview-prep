@@ -1,0 +1,90 @@
+.concept-page {
+  width: min(100% - 2rem, 68rem);
+  margin: 0 auto;
+  padding: 2rem 0 5rem;
+}
+
+.concept-page > a {
+  color: #34594b;
+}
+
+.concept-header {
+  max-width: 48rem;
+  padding: 2rem 0;
+}
+
+.concept-header h1 {
+  margin-bottom: 0.75rem;
+}
+
+.concept-page section {
+  margin-top: 2.5rem;
+}
+
+.concept-page section > p,
+.concept-header > p:last-child {
+  max-width: 52rem;
+  color: #52605b;
+  line-height: 1.6;
+}
+
+.concept-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.concept-card {
+  overflow: hidden;
+  border: 1px solid #dce3df;
+  border-radius: 0.75rem;
+  background: #fff;
+}
+
+.concept-card img,
+.concept-image-frame {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+}
+
+.concept-card img {
+  object-fit: cover;
+}
+
+.concept-image-frame {
+  background: #e7ece9;
+}
+
+.image-placeholder {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  place-items: center;
+  color: #52605b;
+  font-size: 0.875rem;
+}
+
+.concept-card h3 {
+  margin: 0;
+  padding: 0.8rem 1rem 1rem;
+  color: #293831;
+  font-size: 1rem;
+}
+
+.react-lazy-section button {
+  border: 0;
+  border-radius: 0.45rem;
+  padding: 0.65rem 0.9rem;
+  color: #fff;
+  background: #34594b;
+  cursor: pointer;
+}
+
+.react-lazy-section button:disabled {
+  cursor: default;
+  opacity: 0.65;
+}
