@@ -46,17 +46,17 @@ sumByCategory([
 // Map com as entradas: ["food", 7] e ["tools", 5]
 ```
 
-[`attempt.ts`](attempt.ts) preserva o pseudocódigo enviado pela the learner, inclusive os comentários e as operações que ainda não são TypeScript válido. [`reference.ts`](reference.ts) contém a solução em um arquivo separado.
+[`attempt.ts`](attempt.ts) preserva o pseudocódigo enviado pela estudante, inclusive os comentários e as operações que ainda não são TypeScript válido. [`reference.ts`](reference.ts) contém a solução em um arquivo separado.
 
 Envie a implementação e explique em inglês o raciocínio, a complexidade de tempo e espaço e três casos de borda com os resultados esperados.
 
-## Resposta da the learner
+## Resposta da estudante
 
 Resposta original no chat:
 
 > I did more like a pseudo-code I didn't even try to compile is more a hope that the functions work like that!
 
-A the learner apresentou a tentativa como pseudocódigo e relatou não ter compilado. A revisão separa a intenção do algoritmo das operações concretas disponíveis em TypeScript.
+A estudante apresentou a tentativa como pseudocódigo e relatou não ter compilado. A revisão separa a intenção do algoritmo das operações concretas disponíveis em TypeScript.
 
 ## Código da tentativa
 

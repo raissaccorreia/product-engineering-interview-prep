@@ -32,9 +32,9 @@ function average(values: readonly number[]): number | undefined {
 
 Encontre os bugs e envie a função corrigida. Explique em inglês por que a correção funciona, apresente três entradas com resultados esperados e informe a complexidade de tempo.
 
-[`attempt.ts`](attempt.ts) preserva a implementação e as chamadas enviadas pela the learner. A correção está no arquivo separado [`reference.ts`](reference.ts).
+[`attempt.ts`](attempt.ts) preserva a implementação e as chamadas enviadas pela estudante. A correção está no arquivo separado [`reference.ts`](reference.ts).
 
-## Resposta da the learner
+## Resposta da estudante
 
 Resposta original no chat:
 

@@ -1,4 +1,4 @@
-# React assessment practice environment
+# React work item practice environment
 
 This isolated Vite + React + TypeScript app is a blank runtime for the work item tracker exercise. The prompt lives one directory above this app. `src/App.tsx` is the implementation entry point.
 

@@ -12,7 +12,7 @@ Este registro guarda os enunciados já respondidos, as respostas originais, o ga
 
 Um editor precisa guardar as ações feitas pelo usuário para permitir desfazer a ação mais recente. Qual estrutura escolher e quais operações e complexidades são adequadas?
 
-### Resposta da the learner
+### Resposta da estudante
 
 > A estrutura de dados apropriada se chama pilha. Basicamente, push e pop em um array, por exemplo, já seriam suficientes para isso. A complexidade de tempo esperada é constante. Acho que nem linear, e sim constante.
 
@@ -30,7 +30,7 @@ Escolha e raciocínio corretos. A nuance é dizer que `push` tem custo amortizad
 
 Uma aplicação mantém em memória o status de muitos jobs. Ela precisa inserir, atualizar, consultar e remover itens frequentemente pelo ID. A ordem não precisa ser percorrida. Que estrutura escolher e qual é o custo esperado dessas operações?
 
-### Resposta da the learner
+### Resposta da estudante
 
 > The best one is a map because it has the index (the ID of the status) and the status itself, whatever it is, or the object it is referring to.
 >
@@ -50,7 +50,7 @@ Boa escolha e boa identificação da associação entre ID e status. A correçã
 
 Você precisa verificar com frequência se um ID já foi processado. Só importa saber se ele existe; não precisa guardar outros dados associados nem manter uma ordem. Que estrutura ou abordagem escolheria, e qual seria o custo esperado de adicionar e consultar um ID?
 
-### Resposta da the learner
+### Resposta da estudante
 
 > For number 3, I would say it's a hash map, if I'm not mistaken, of course, because you only need to know if it exists and don't need any other association. You only need a fast read time. My intuition is that it is a hash map, and with a hash map, inserting has a constant cost, the same as reading.
 
@@ -68,7 +68,7 @@ O raciocínio sobre membership e consultas rápidas está correto. A estrutura m
 
 Você tem uma lista de números já ordenada e precisa encontrar um valor nela. Como faria a busca, qual seria a complexidade de tempo e qual condição sobre os dados permite usar essa estratégia?
 
-### Resposta da the learner
+### Resposta da estudante
 
 > The best way to search for whether it's already ordered is to use binary search because you can reduce the time complexity to O(log n). The only problem is that insertion requires O(n) time instead of O(1), so that's the price to pay. That's pretty much it.
 
@@ -86,7 +86,7 @@ A escolha e a complexidade estão corretas, e você reconheceu a condição cent
 
 Uma aplicação recebe tarefas e precisa processá-las na mesma ordem em que chegaram. Ela adiciona tarefas novas e remove a próxima tarefa com frequência. Que estrutura escolheria, como implementaria essas operações com eficiência e qual seria a complexidade esperada?
 
-### Resposta da the learner
+### Resposta da estudante
 
 > One can use an array with the `push` and `shift` methods instead of `pop`, because that requires a queue instead of a stack, like in the first question. That's how you implement the queue. The expected complexity is also constant.
 
@@ -104,7 +104,7 @@ Você identificou corretamente FIFO e distinguiu a fila da pilha da questão 1. 
 
 Um sistema mantém itens com valores numéricos de prioridade. Itens novos podem chegar a qualquer momento, e o sistema precisa consultar e remover com frequência o item de maior prioridade. Que estrutura escolheria e qual seria o custo esperado de inserir um item, consultar o próximo e removê-lo?
 
-### Resposta da the learner
+### Resposta da estudante
 
 > Soon, it's also a map, so the priority is the index, and you have the numerical value. If you use a map, removing and checking for a value are constant-time operations, just like removing. I would say a key-value structure like a map will do the job.
 
@@ -122,7 +122,7 @@ Uma fila de prioridade, normalmente implementada com um max-heap binário. A rai
 
 Você tem uma rede de lugares conectados por rotas; cada rota conta como um passo, sem pesos diferentes. Precisa encontrar o menor número de rotas entre um ponto de partida e os outros lugares alcançáveis. Como abordaria o problema e qual seria a complexidade em termos de lugares e rotas?
 
-### Resposta da the learner
+### Resposta da estudante
 
 > Graph. That's the data structure, and you can solve this by using the traveling salesman problem. It is a pretty well-known non-polynomial-time problem, and I know you can have approximate solutions using dynamic programming.
 >
@@ -144,7 +144,7 @@ Você identificou corretamente o grafo e descreveu bem as listas de adjacência.
 
 Você tem uma lista de números já ordenada e precisa descobrir se existem dois elementos distintos cuja soma seja igual a um valor-alvo. Como resolveria e qual seria a complexidade de tempo?
 
-### Resposta da the learner
+### Resposta da estudante
 
 > If you do it naively, it would have quadratic complexity because you go through each number and check whether the sum can reach that value. You can optimize it a lot, though. Instead of a sliding window, you can just use two pointers. I think with the two-pointer method, it will be very close to linear, or about linear, so I'll go with that.
 
@@ -162,7 +162,7 @@ Correto: dois ponteiros aproveitam a ordenação e reduzem o tempo de O(n²) par
 
 Dada uma string, você precisa encontrar o comprimento da maior substring contígua sem caracteres repetidos. Que abordagem usaria, qual estrutura ajudaria a acompanhar os caracteres e qual seria a complexidade de tempo?
 
-### Resposta da the learner
+### Resposta da estudante
 
 > There is an auxiliary structure to keep the longest string up until that point, and there's a method called the sliding window. I think it's quadratic. I don't remember the time complexity of using the sliding window method, but I think it's quadratic.
 
@@ -180,7 +180,7 @@ Você lembrou corretamente o padrão de janela deslizante. A complexidade eficie
 
 Um sistema precisa executar tarefas respeitando dependências: algumas tarefas só podem começar depois de outras terminarem. Como determinaria uma ordem válida de execução, como identificaria se não existe uma ordem válida e qual seria a complexidade?
 
-### Resposta da the learner
+### Resposta da estudante
 
 > There is a structure called a dependency graph. It would be the same problem as using DFS: searching from the beginning task, which is the root of the graph, all the way to the destination task, because then you know which ones are required. The complexity of DFS is O(V + E), where V is the number of vertices and E is the number of edges.
 

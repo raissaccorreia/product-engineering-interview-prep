@@ -39,7 +39,7 @@ Explique em inglês:
 2. Como você chegou a esses resultados?
 3. Se `quantities` fosse inicialmente um `Map<string, number>` vazio, o trecho terminaria normalmente? Quais seriam as quatro saídas?
 
-## Resposta da the learner
+## Resposta da estudante
 
 Resposta original no chat:
 

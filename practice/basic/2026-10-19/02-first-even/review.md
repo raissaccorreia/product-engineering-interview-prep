@@ -4,7 +4,7 @@
 
 Corrigir `firstEven` para retornar o primeiro número par na ordem da entrada, ou `undefined` quando nenhum valor for par. A função recebe uma lista somente para leitura e não deve alterá-la.
 
-## Tentativa original da the learner
+## Tentativa original da estudante
 
 ```ts
 export function firstEven(values: readonly number[]): number | undefined {
@@ -12,7 +12,7 @@ export function firstEven(values: readonly number[]): number | undefined {
 }
 ```
 
-Explicação original da the learner:
+Explicação original da estudante:
 
 > The fact is that, with `values.sum`, we already get all the even values. I added `0` between the square brackets so we can only get the first one. If getting the first one from this expression is falsy, it will return `undefined`, as requested. This will happen both when there is no even number and when there is no `values` array. I think this is enough to debug, if I'm not mistaken.
 

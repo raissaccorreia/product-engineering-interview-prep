@@ -33,11 +33,11 @@ const result = takeFirst(input, 2);
 // input: ["a", "b", "c"]
 ```
 
-Encontre e corrija o bug. [`attempt.ts`](attempt.ts) preserva a tentativa enviada pela the learner. A solução de referência está em [`reference.ts`](reference.ts).
+Encontre e corrija o bug. [`attempt.ts`](attempt.ts) preserva a tentativa enviada pela estudante. A solução de referência está em [`reference.ts`](reference.ts).
 
 Explique em inglês o problema, por que sua correção funciona e a complexidade de tempo e espaço. Apresente três casos com o retorno esperado e o estado esperado da entrada depois da chamada.
 
-## Resposta da the learner
+## Resposta da estudante
 
 Resposta original no chat:
 

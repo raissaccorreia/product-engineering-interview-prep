@@ -37,17 +37,17 @@ countOccurrences(["red", "blue", "red"]);
 // Map com as entradas: ["red", 2] e ["blue", 1]
 ```
 
-[`attempt.ts`](attempt.ts) preserva a implementação enviada pela the learner em 14/10, inclusive os comentários e erros. [`reference.ts`](reference.ts) contém a solução em um arquivo separado.
+[`attempt.ts`](attempt.ts) preserva a implementação enviada pela estudante em 14/10, inclusive os comentários e erros. [`reference.ts`](reference.ts) contém a solução em um arquivo separado.
 
 Envie a implementação e explique em inglês o raciocínio, a complexidade de tempo e espaço e três casos de borda com os resultados esperados.
 
-## Resposta da the learner
+## Resposta da estudante
 
 Resposta original no chat, em 14/10:
 
 > Fiz o exercício 3 e dessa vez decidi fazer sem consultar, sem compilar e rodar, nem nada, só com o que eu lembrava de cabeça sobre map e comparação de strings em typescript, com comentários explicativos
 
-A tentativa sem consulta, compilação ou execução foi relatada pela the learner. Os comentários em inglês no código são o registro do raciocínio; não foram apresentados casos com resultados esperados nem a complexidade.
+A tentativa sem consulta, compilação ou execução foi relatada pela estudante. Os comentários em inglês no código são o registro do raciocínio; não foram apresentados casos com resultados esperados nem a complexidade.
 
 ## Código da tentativa
 
@@ -140,4 +140,4 @@ A referência passou nos seis casos da tabela, preservou a entrada e passou no t
 
 Com `n` elementos e `k` strings distintas, a referência tem tempo esperado `O(n)` no modelo usual em que as operações de `Map` e as chaves são tratadas com custo constante. Se contabilizarmos o trabalho sobre os caracteres das chaves, o tempo esperado é `O(n + L)`, sendo `L` o total de caracteres processados. O resultado contém `O(k)` entradas; além dele, o espaço auxiliar é constante.
 
-Os comentários em inglês comunicam a intenção, embora as operações do código não a implementem. Revise a grafia _occurrences_ e diferencie _array element_, _map key_ e _count_. O termo _push_ corresponde à operação de array que foi usada por engano; para explicar a referência, descreva a leitura e a atualização da contagem associada à chave. Não é necessário reescrever a resposta da the learner.
+Os comentários em inglês comunicam a intenção, embora as operações do código não a implementem. Revise a grafia _occurrences_ e diferencie _array element_, _map key_ e _count_. O termo _push_ corresponde à operação de array que foi usada por engano; para explicar a referência, descreva a leitura e a atualização da contagem associada à chave. Não é necessário reescrever a resposta da estudante.

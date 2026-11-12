@@ -31,15 +31,15 @@ longestLabel(["cat", "horse", "zebra"]);
 
 Envie o código e explique em inglês seu raciocínio, a complexidade de tempo e espaço e três casos de borda com os resultados esperados.
 
-[`attempt.ts`](attempt.ts) preserva o código enviado pela the learner, inclusive o comentário sobre a dúvida. [`reference.ts`](reference.ts) contém a correção em um arquivo separado.
+[`attempt.ts`](attempt.ts) preserva o código enviado pela estudante, inclusive o comentário sobre a dúvida. [`reference.ts`](reference.ts) contém a correção em um arquivo separado.
 
-## Resposta da the learner
+## Resposta da estudante
 
 Resposta original no chat:
 
 > done without research on attempt.ts, with a comment from something I couldn't remember
 
-O relato de ter realizado a tentativa sem pesquisa foi informado pela the learner. A resposta no chat não incluiu a explicação em inglês, os três casos de borda ou a complexidade solicitados.
+O relato de ter realizado a tentativa sem pesquisa foi informado pela estudante. A resposta no chat não incluiu a explicação em inglês, os três casos de borda ou a complexidade solicitados.
 
 ## Código da tentativa
 

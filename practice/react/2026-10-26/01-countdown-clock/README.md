@@ -1,6 +1,6 @@
 # Countdown clock practice
 
-Build a small configurable countdown clock in React and TypeScript, with minute and second inputs and Start, Pause, Resume, and Reset controls. This is an original learning exercise with a contract we will clarify together, independent of the assessment.
+Build a small configurable countdown clock in React and TypeScript, with minute and second inputs and Start, Pause, Resume, and Reset controls. This original exercise has a contract we will clarify before implementation.
 
 ## Current stage
 

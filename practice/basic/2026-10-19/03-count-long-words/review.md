@@ -4,7 +4,7 @@
 
 Implementar `countLongWords(words, minLength)` para contar quantas palavras têm comprimento estritamente maior que `minLength`. A função retorna um número e recebe uma lista somente para leitura.
 
-## Tentativa original da the learner
+## Tentativa original da estudante
 
 Código original, incluindo os comentários explicativos e chamadas de exemplo:
 

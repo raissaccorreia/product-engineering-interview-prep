@@ -8,7 +8,7 @@ Implementar `buildOrderReport(orders)` para produzir `activeCount`, `activeTotal
 
 Em caso de empate no maior total final, vence o cliente que apareceu primeiro entre os pedidos ativos. Sem pedidos ativos, os contadores são zero, o mapa é vazio e `topCustomer` é `undefined`. O [enunciado original](README.md) inclui os tipos e a entrada de exemplo.
 
-## Resposta original da the learner
+## Resposta original da estudante
 
 > Well, I did my best in half an hour, and this is what I could make with the comments as reference. all on exercise.ts
 

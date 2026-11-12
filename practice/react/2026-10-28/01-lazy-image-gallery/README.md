@@ -27,4 +27,4 @@ Use the browser's `IntersectionObserver` API to detect the marker. Do not use `R
 
 From `app/`, run `pnpm dev` and open `http://localhost:5174/`. The Vite config uses polling so hot reload continues to work in this workspace. Run `pnpm build` and `pnpm lint` after the implementation; they check TypeScript and linting but do not exercise scrolling behavior.
 
-This is a guided learning exercise, not a reconstruction of an assessment prompt. Preserve the attempt separately from any reference implementation after it is reviewed.
+The exercise and examples in this folder are original to this learning archive. Preserve the attempt separately from any reference implementation after it is reviewed.

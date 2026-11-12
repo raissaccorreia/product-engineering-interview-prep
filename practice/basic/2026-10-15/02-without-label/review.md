@@ -48,9 +48,9 @@ Corrija o código em [`attempt.ts`](attempt.ts) e explique em inglês:
 2. Quais três casos você usaria, com resultados esperados e estado esperado da entrada?
 3. Qual é a complexidade de tempo e espaço?
 
-[`attempt.ts`](attempt.ts) preserva o arquivo enviado pela the learner. A função permaneceu igual à do enunciado; foram acrescentadas três chamadas. A proposta de correção foi descrita no chat, mas não implementada.
+[`attempt.ts`](attempt.ts) preserva o arquivo enviado pela estudante. A função permaneceu igual à do enunciado; foram acrescentadas três chamadas. A proposta de correção foi descrita no chat, mas não implementada.
 
-## Resposta da the learner
+## Resposta da estudante
 
 Resposta original no chat:
 

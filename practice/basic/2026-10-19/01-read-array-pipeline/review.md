@@ -6,7 +6,7 @@ Leia o código e informe, em inglês, o que cada `console.log` imprime, o que ac
 
 O código filtra números positivos, cria rótulos com o índice de cada elemento filtrado e seleciona os dois primeiros rótulos. A entrada de exemplo é `[4, 0, -2, 7]`.
 
-## Resposta original da the learner
+## Resposta original da estudante
 
 > Let's get started with positive amounts.
 >

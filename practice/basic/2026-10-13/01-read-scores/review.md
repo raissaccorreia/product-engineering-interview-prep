@@ -34,7 +34,7 @@ Explique em inglês:
 2. Como cada operação contribui para o resultado?
 3. Se `scores` começasse como `[]`, o código terminaria normalmente? Quais seriam as quatro saídas?
 
-## Resposta da the learner
+## Resposta da estudante
 
 Resposta original no chat:
 

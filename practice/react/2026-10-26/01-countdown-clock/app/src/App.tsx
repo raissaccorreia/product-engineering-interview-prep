@@ -1,5 +1,5 @@
 import './App.css'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 function App() {
   const [minutes, setMinutes] = useState(0)
@@ -11,6 +11,16 @@ function App() {
   const displayedTime = isPaused ? pausedTime : time
   const displayedMinutes = Math.floor(displayedTime / 60)
   const displayedSeconds = displayedTime % 60
+
+  useEffect(() => {
+    if (isPaused || time <= 0) return
+
+    const timeoutId = setTimeout(() => {
+      setTime((currentTime) => currentTime - 1)
+    }, 1000)
+
+    return () => window.clearTimeout(timeoutId)
+  }, [isPaused, time])
 
   function handleMinutesChange(nextMinutes: number) {
     setMinutes(nextMinutes)

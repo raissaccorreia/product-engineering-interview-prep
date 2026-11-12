@@ -8,7 +8,7 @@ Implementar `buildTicketReport(tickets)` para produzir IDs dos tickets abertos n
 
 Escolha primeiro a equipe com mais tickets abertos. No empate, vence a equipe cujo primeiro ticket aberto aparece antes na entrada. Depois escolha, dentro dessa equipe, o primeiro ticket aberto de prioridade `high`; na ausência dele, o primeiro de prioridade `low`. Sem tickets abertos, retorne lista e mapa vazios e `nextTicket: undefined`. Veja o [enunciado completo](README.md).
 
-## Resposta original da the learner
+## Resposta original da estudante
 
 > All right, I consider myself to have run out of things to implement for the interview, so I wrote my comments and I wrote my code in exercise.ts. would love your review.
 

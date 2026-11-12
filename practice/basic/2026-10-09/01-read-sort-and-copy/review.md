@@ -34,7 +34,7 @@ Explique:
 2. como as operações produzem esses resultados;
 3. o que aconteceria se o valor inicial de `prices` fosse `[]`.
 
-## Resposta da the learner
+## Resposta da estudante
 
 Resposta original no chat:
 

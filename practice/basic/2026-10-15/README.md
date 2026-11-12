@@ -9,7 +9,7 @@ Sessão de 60 minutos de treino guiado, dentro de uma disponibilidade total de 9
 | Implementação     | 20 min         | [Somar por categoria](03-sum-by-category/review.md) · [tentativa](03-sum-by-category/attempt.ts)             |
 | Revisão final     | 5 min          | Resumo ao final desta nota                                                                                   |
 
-Responder em TypeScript e explicar o raciocínio em inglês. O feedback será em português, com sugestões pontuais para a clareza do inglês, sem reescrever a resposta da the learner.
+Responder em TypeScript e explicar o raciocínio em inglês. O feedback será em português, com sugestões pontuais para a clareza do inglês, sem reescrever a resposta da estudante.
 
 Preservar cada tentativa e a mensagem original. Depois da resposta, acrescentar a referência em arquivo separado e reunir os códigos, a explicação, as verificações e o feedback em Markdown conforme o padrão da coleção.
 

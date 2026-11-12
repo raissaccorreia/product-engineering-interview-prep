@@ -9,7 +9,7 @@ Sessão planejada de 40 minutos. Apresentar um exercício por vez no chat e agua
 | Implementação     | 15 min         | [Contar ocorrências](03-count-occurrences/review.md) · [tentativa](03-count-occurrences/attempt.ts)  |
 | Revisão final     | 5 min          | Resumo ao final desta nota                                                                           |
 
-Responder com código TypeScript e raciocínio em inglês. O feedback será em português, com sugestões pontuais para a clareza do inglês, sem reescrever a resposta da the learner.
+Responder com código TypeScript e raciocínio em inglês. O feedback será em português, com sugestões pontuais para a clareza do inglês, sem reescrever a resposta da estudante.
 
 Depois de cada resposta, preservar a tentativa e a mensagem original, acrescentar a referência em arquivo separado e documentar tudo em Markdown conforme o padrão da coleção. Os exercícios ainda não respondidos contêm somente enunciados e código inicial.
 
